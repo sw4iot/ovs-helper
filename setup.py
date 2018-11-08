@@ -32,7 +32,7 @@ setuptools.setup(
     package_dir={
         'ovs_helper': 'ovs_helper'
     },
-    keywords='sw4iot-etcd',
+    keywords='ovs-helper',
     include_package_data=True,
     zip_safe=False,
     classifiers=[
