@@ -17,7 +17,7 @@ requirements = load_reqs('requirements.txt')
 
 setuptools.setup(
     name="ovs-helper",
-    version="0.0.2",
+    version="0.0.3",
     author="SOFTWAY4IoT",
     author_email="softway4iot@gmail.com",
     description="Ovs-helper to Open vSwitch",
@@ -32,7 +32,7 @@ setuptools.setup(
     package_dir={
         'ovs_helper': 'ovs_helper'
     },
-    keywords='sw4iot-etcd',
+    keywords='ovs-helper',
     include_package_data=True,
     zip_safe=False,
     classifiers=[
