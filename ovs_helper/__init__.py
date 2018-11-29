@@ -2,7 +2,7 @@
 import logging
 import os
 
-from .ovs import bridge as ovs_bridge
+from .lib import bridge as ovs_bridge
 
 
 class OvsCtl:
